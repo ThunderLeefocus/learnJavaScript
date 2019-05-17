@@ -1,0 +1,2 @@
+# learnJavaScript
+my learning notes
