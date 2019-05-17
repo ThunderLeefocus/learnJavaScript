@@ -359,10 +359,31 @@ alert（trueFactorial(5));//120
 5. 字符串大小写转换方法。
 6. 字符串的模式匹配方法。
 7. localeCompare（）方法
+8. fromCharCode（）方法：方法的任务是接收一或多个字符编码，然后将它们转换成一个字符串。
+9. HTML方法
+
+#### 5.7 单体内置对象
+
+内置对象的定义：由ECMAScript实现提供的、不依赖宿主环境的对象，这些对象在ECMAScript程序执行之前已经存在了。
+
+##### 5.7.1 Global 对象
+
+不属于任何其他对象的属性和方法，最终都是全局对象的属性和方法。
+
+1. URI编码方法：Global对象的encodeURI() 和 encodeURIComponent()方法可以对URI（  Uniform Resource Identifiers，通用资源标识符）进行编码。encodeURI() 是对整个URI编码而encodeURIComponent() 主要用于对URI中的某一段。
+2. 相对应的还有decodeURI()和decodeURIComponent(). 用于对被编码的URI进行解码。
 
 
 
+2.eval（）方法
 
+3.Global 对象属性
+
+4.window 对象：在全局作用域中声明的所有变量和函数，都成为了window对象的属性。
+
+##### 5.7.2 Math对象
+
+#### 5.8 小结
 
 
 
